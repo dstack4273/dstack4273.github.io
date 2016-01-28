@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Dustin Stackhouse'
 SITENAME = u'Yet Another Coder Blog'
 SITEURL = ''
+THEME = "pelican-themes/plumage"
 
 PATH = 'content'
 
