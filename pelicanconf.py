@@ -3,9 +3,9 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Dustin Stackhouse'
-SITENAME = u'Yet Another Coder Blog'
+SITENAME = u'Allons-y Blog'
+SITESUBTITLE = u'| Adventures learning to code'
 SITEURL = ''
-THEME = "pelican-themes/plumage"
 
 PATH = 'content'
 
@@ -33,4 +33,24 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+# Formatting for urls
+ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
+ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
+
+CATEGORY_URL = "category/{slug}"
+CATEGORY_SAVE_AS = "category/{slug}/index.html"
+
+TAG_URL = "tag/{slug}/"
+TAG_SAVE_AS = "tag/{slug}/index.html"
+
+# Generate yearly archive
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/index.html'
+
+# Show most recent posts first
+NEWEST_FIRST_ARCHIVES = False
+
+# Define the theme being used
+THEME = "pelican-themes/plumage"

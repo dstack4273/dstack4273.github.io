@@ -202,9 +202,7 @@
 
           <div class="span2 muted">
             <h5>Copyright notice</h5>
-            {% set date_start = dates[-1].date.year if dates else None %}
-            {% set date_end   = dates[0].date.year if dates else None %}
-            <p>© Copyright {{ date_start if date_start }}{{ '-%s' % date_end if date_end and date_end != date_start }} {{ AUTHOR }}.</p>
+            <p>{% include 'footer.html' %}</p>
             {% if COPYRIGHT %}
               <p>{{ COPYRIGHT }}</p>
             {% endif %}
