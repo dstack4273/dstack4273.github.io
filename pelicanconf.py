@@ -17,7 +17,7 @@ EXTRA_PATH_METADATA = {
 
 FAVICON_URL='/favicon.ico'
 
-#SITE_THUMBNAIL = 
+#SITE_THUMBNAIL =
 
 TIMEZONE = 'US/Eastern'
 
@@ -65,9 +65,9 @@ NEWEST_FIRST_ARCHIVES = False
 THEME = "pelican-themes/plumage"
 
 # set up some links in the top page menu
-MENUITEMS = (
-    ('Home', '/'),
-    ('Videos', '/video/'),
-    ('Code', '/code/'),
-    ('Themes', '/themes/'),
-    ('About', '/about/'),
+# MENUITEMS = (
+#     ('Home', '/'),
+#     ('Videos', '/video/'),
+#     ('Code', '/code/'),
+#     ('Themes', '/themes/'),
+#     ('About', '/about/'),
