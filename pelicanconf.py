@@ -9,6 +9,16 @@ SITEURL = ''
 
 PATH = 'content'
 
+EXTRA_PATH_METADATA = {
+    '/images/favicon.ico': {
+        'path':'favicon.ico'
+        },
+    }
+
+FAVICON_URL='/favicon.ico'
+
+#SITE_THUMBNAIL = 
+
 TIMEZONE = 'US/Eastern'
 
 DEFAULT_LANG = u'en'
@@ -23,8 +33,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -33,7 +42,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 # Formatting for urls
 ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
@@ -54,3 +63,11 @@ NEWEST_FIRST_ARCHIVES = False
 
 # Define the theme being used
 THEME = "pelican-themes/plumage"
+
+# set up some links in the top page menu
+MENUITEMS = (
+    ('Home', '/'),
+    ('Videos', '/video/'),
+    ('Code', '/code/'),
+    ('Themes', '/themes/'),
+    ('About', '/about/'),
