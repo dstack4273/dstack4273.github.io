@@ -134,7 +134,7 @@ MENUITEMS = (
     ('Code', '/code/'),
     ('Themes', '/themes/'),
     ('About', '/about/'),
-
+)
 
 #Haven't made this yet
 #DISQUS_SITENAME =
