@@ -1,3 +1,4 @@
+from datetime import datetime
 from fabric.api import *
 import fabric.contrib.project as project
 import os
@@ -6,6 +7,18 @@ import sys
 import SocketServer
 
 from pelican.server import ComplexHTTPRequestHandler
+
+
+#Post template values for make_entry function
+TEMPLATE = """
+Title: {title}
+Date: {year}-{month}-{day} {hour}:{minute:02d}
+Category:
+Tags:
+Slug: {slug}
+Status: draft
+
+"""
 
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = 'output'
@@ -36,15 +49,14 @@ def build():
     """Build local version of site"""
     local('pelican -s pelicanconf.py')
 
-#I need to revisit this and make sure it matches the template format that I am
-#using from Kevin's stuff, otherwise it'll be dropping things in the wrong place.
+#using the function given by Nafiul Islam in his blog post about pelican
 def make_entry(title):
     """fabric shortcut to generate a blog post following a template"""
     today = datetime.today()
     slug = title.lower().strip().replace(' ', '-')
-    f_create = "content/{}_{:0>2}_{:0>2}_{}.md".format(
+    f_create = "content/posts/{}_{:0>2}_{:0>2}_{}.md".format(
                 today.year, today.month, today.day, slug)
-    t = TEMPLATE.strip().format(title=title, hashes='#' * len(title), year=today.year, month=today.month, day=today.day, hour=today.hour, minute=today.minute, slug=slug)
+    t = TEMPLATE.strip().format(title=title, year=today.year, month=today.month, day=today.day, hour=today.hour, minute=today.minute, slug=slug)
     with open(f_create, 'w') as w:
         w.write(t)
     print("File created -> " + f_create)
