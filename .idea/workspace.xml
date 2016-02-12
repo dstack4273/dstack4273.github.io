@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b212bd6a-2a70-454f-958a-dd601eee5581" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/plumage-article-screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/pages/about.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/posts/testPost.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/develop_server.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fabfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/analytics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/archives.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/article.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/author.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/categories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/macros.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/projects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/tag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/tags.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelican-themes/plumage/templates/translations.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pelicanconf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publishconf.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/01/testPost/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/about/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/new-stuff/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/blog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/pelican/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/index.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/GlamGlowFirstTake.png" afterPath="$PROJECT_DIR$/content/extra/GlamGlowFirstTake.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/android-chrome-144x144.png" afterPath="$PROJECT_DIR$/content/extra/favicons/android-chrome-144x144.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/android-chrome-192x192.png" afterPath="$PROJECT_DIR$/content/extra/favicons/android-chrome-192x192.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/android-chrome-36x36.png" afterPath="$PROJECT_DIR$/content/extra/favicons/android-chrome-36x36.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/android-chrome-48x48.png" afterPath="$PROJECT_DIR$/content/extra/favicons/android-chrome-48x48.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/android-chrome-72x72.png" afterPath="$PROJECT_DIR$/content/extra/favicons/android-chrome-72x72.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/android-chrome-96x96.png" afterPath="$PROJECT_DIR$/content/extra/favicons/android-chrome-96x96.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon-114x114.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon-114x114.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon-120x120.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon-120x120.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon-144x144.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon-144x144.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon-152x152.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon-152x152.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon-180x180.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon-180x180.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon-57x57.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon-57x57.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon-60x60.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon-60x60.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon-72x72.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon-72x72.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon-76x76.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon-76x76.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon-precomposed.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon-precomposed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/apple-touch-icon.png" afterPath="$PROJECT_DIR$/content/extra/favicons/apple-touch-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/browserconfig.xml" afterPath="$PROJECT_DIR$/content/extra/favicons/browserconfig.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/favicon-16x16.png" afterPath="$PROJECT_DIR$/content/extra/favicons/favicon-16x16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/favicon-32x32.png" afterPath="$PROJECT_DIR$/content/extra/favicons/favicon-32x32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/favicon-96x96.png" afterPath="$PROJECT_DIR$/content/extra/favicons/favicon-96x96.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/manifest.json" afterPath="$PROJECT_DIR$/content/extra/favicons/manifest.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/mstile-144x144.png" afterPath="$PROJECT_DIR$/content/extra/favicons/mstile-144x144.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/mstile-150x150.png" afterPath="$PROJECT_DIR$/content/extra/favicons/mstile-150x150.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/mstile-310x150.png" afterPath="$PROJECT_DIR$/content/extra/favicons/mstile-310x150.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/mstile-310x310.png" afterPath="$PROJECT_DIR$/content/extra/favicons/mstile-310x310.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/mstile-70x70.png" afterPath="$PROJECT_DIR$/content/extra/favicons/mstile-70x70.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extra/favicons/safari-pinned-tab.svg" afterPath="$PROJECT_DIR$/content/extra/favicons/safari-pinned-tab.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/content/extra/favicons/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/css/jquery.mglass.css" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/css/jquery.mglass.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/css/pygment-solarized-dark.css" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/css/pygment-solarized-dark.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/css/pygment-solarized-light.css" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/css/pygment-solarized-light.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/css/style.css" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/css/tipuesearch.css" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/css/tipuesearch.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/img/creampaper.png" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/img/creampaper.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/img/creampaper_@2X.png" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/img/creampaper_@2X.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/img/fabric_plaid.png" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/img/fabric_plaid.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/img/fabric_plaid_@2X.png" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/img/fabric_plaid_@2X.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/img/magnifier.png" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/img/magnifier.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/img/play-button.png" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/img/play-button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/application.js" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/js/application.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/jquery.mglass.js" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/js/jquery.mglass.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/tipuesearch.js" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/js/tipuesearch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/tipuesearch.min.js" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/js/tipuesearch.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/tipuesearch_content.js" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/js/tipuesearch_content.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/tipuesearch_set.js" afterPath="$PROJECT_DIR$/pelican-themes/plumage/static/js/tipuesearch_set.js" />
+    </list>
+    <ignored path="my-site.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="my-site" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pelicanconf.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="43" />
+    <option name="width" value="1260" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pelican-themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plumage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pelican-themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plumage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="my-site" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="my-site" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="my-site" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="my-site" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="my-site" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="my-site" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b212bd6a-2a70-454f-958a-dd601eee5581" name="Default" comment="" />
+      <created>1454984505578</created>
+      <option name="number" value="Default" />
+      <updated>1454984505578</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="43" width="1260" height="733" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pelican-themes/plumage/templates/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pelican-themes/plumage/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0294118">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pelicanconf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3773585">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
