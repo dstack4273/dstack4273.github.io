@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Dustin Stackhouse'
 SITENAME = u'Allons-y Blog'
 SITESUBTITLE = u'| Adventures learning to code'
-SITEURL = ''
+#SITEURL = ''
 
 PATH = 'content'
 
@@ -13,18 +13,12 @@ TIMEZONE = 'US/Eastern'
 
 DEFAULT_LANG = u'en'
 
-# Not sure I want to copy this from Kevin's yet, the pelican docs make it sound
-# like you get less markdown capability by defining only a few.
-# MD_EXTENSIONS = [
-#     'codehilite',
-#     'extra',
-#     'mdx_video',
-#     'mdx_titlecase',
-# ]
+MD_EXTENSIONS = [
+    'codehilite',
+    'extra',
+    'mdx_titlecase',
+]
 TYPOGRIFY = True
-
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = False
 
 # Force Pelican to use the file name as the slug, instead of derivating it from
 # the title.
@@ -38,6 +32,8 @@ ARTICLE_PATHS = ['posts']
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = PAGE_URL + 'index.html'
 PAGE_PATHS = ['pages']
+
+###TEMPLATE_PAGES = {}
 
 DIRECT_TEMPLATES = [
     'index', 'tags', 'categories', 'authors', 'archives', 'search']
@@ -74,6 +70,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+USE_FOLDER_AS_CATEGORY = False
+DEFAULT_CATEGORY = 'English'
+DEFAULT_DATE_FORMAT = '%b. %d, %Y'
 REVERSE_ARCHIVE_ORDER = True
 DISPLAY_PAGES_ON_MENU = False
 
@@ -122,7 +121,7 @@ SITEMAP = {
 }
 
 SITE_THUMBNAIL = '/images/thumbs/firstBlogThumb.jpg'
-SITE_THUMBNAIL_TEXT = 'My wife endures a lot to be in public with me ;)'
+SITE_THUMBNAIL_TEXT = 'My poor wife endures a lot ;)'
 
 # Partner links in footer
 LINKS = (('Python.org', 'http://python.org/'),
