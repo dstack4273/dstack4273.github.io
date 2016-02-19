@@ -115,5 +115,6 @@ def publish():
 def gh_pages():
     """Publish to GitHub Pages"""
     rebuild()
+    local('pelican -s publishconf.py')
     local("ghp-import -m 'Fabric push pelican site on master branch' -b {github_pages_branch} {deploy_path}".format(**env))
     local("git push origin {github_pages_branch}".format(**env))
