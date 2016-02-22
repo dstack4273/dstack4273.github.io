@@ -1,190 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8"/>
+<html lang="en"
+>
+<head>
+    <title>Categories - Allons-y Blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>  All category topics
- | Allons-y Blog</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="author" content=""/>
+
+
+        <meta name="author" content="Dustin Stackhouse" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="Allons-y Blog" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Allons-y Blog"/>
+        <meta property="og:url" content="http://dstack4273.github.io"/>
+        <meta property="og:description" content="Allons-y Blog"/>
+
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap-responsive.min.css"/>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.0.3/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css"/>
-    <link rel="stylesheet" href="http://dstack4273.github.io/theme/css/jquery.mglass.css"/>
-    <link rel="stylesheet" href="http://dstack4273.github.io/theme/css/pygment-solarized-dark.css"/>
-    <link rel="stylesheet" href="http://dstack4273.github.io/theme/css/style.css"/>
+        <link rel="stylesheet" href="http://dstack4273.github.io/theme/css/bootstrap.slate.min.css" type="text/css"/>
+    <link href="http://dstack4273.github.io/theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
-    <link href='//fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'/>
-    <link href='//fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
-      <link href='//fonts.googleapis.com/css?family=Expletus+Sans' rel='stylesheet' type='text/css'>
+    <link href="http://dstack4273.github.io/theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="http://dstack4273.github.io/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+        <link href="http://dstack4273.github.io/theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://dstack4273.github.io/theme/css/style.css" type="text/css"/>
 
 
-    <link rel="icon" href="http://dstack4273.github.io/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="http://dstack4273.github.io/favicon.ico" type="image/x-icon">
+</head>
+<body>
 
-    <!-- Feeds -->
-
-
-  </head>
-
-  <body>
-    <div class="container">
-
-      <header>
-        <div class="page-header">
-            <a href="http://dstack4273.github.io" class="avatar-container">
-              <div class="avatar  animate ">
-                <div class="side"><img src="/images/thumbs/firstBlogThumb.jpg"/></div>
-                  <div class="side back"><p class="text-center">My poor wife endures a lot ;)</p></div>
-              </div>
-            </a>
-          <h1><a href="http://dstack4273.github.io">Allons-y Blog</a> <small>| Adventures learning to code</small></h1>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://dstack4273.github.io/" class="navbar-brand">
+Allons-y Blog            </a>
         </div>
-
-        <div class="navbar">
-          <div class="navbar-inner">
-            <div class="container-fluid">
-
-              <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </a>
-
-              <a class="brand" href="http://dstack4273.github.io" title="| Adventures learning to code">Allons-y Blog</a>
-
-              <div class="nav-collapse collapse">
-                <ul class="nav">
-<li ><a href="/">Home</a></li>
-<li ><a href="/categories/">Categories</a></li>
-<li ><a href="/tags/">Tags</a></li>
-<li ><a href="/about/">About</a></li>
-                </ul>
-                  <form class="navbar-search pull-right" action="http://dstack4273.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);">
-                    <input type="text" name="q" id="tipue_search_input" class="search-query span2" placeholder="Search" required/>
-                    <i class="fa fa-search fa-fw"></i>
-                  </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <section>
-
-        <div class="row">
-          <div class=" span12  ">
-  <h1>
-      <a href="http://dstack4273.github.io/categories/index.html" rel="bookmark" title="Permalink to category topics list">Categories</a>
-  </h1>
-          </div>
-        </div>
-
-        <div class="row">
-
-
-          <div class=" span12 " id="content" role="main">
-
-
-  <dl class="dl-horizontal">
-      <dt><a href="http://dstack4273.github.io/category/new-stuff" class="label label-info">New Stuff</a></dt>
-      <dd><a href="http://dstack4273.github.io/category/new-stuff">2 articles</a></dd>
-  </dl>
-
-          </div>
-
-
-        </div>
-      </section>
-
-    </div>
-
-    <!-- TODO: make footer sticky -->
-    <footer class="container-fluid">
-      <div class="container">
-        <div class="row">
-
-            <div class="span2">
-                <h5>Social</h5>
-                <ul class="unstyled">
-                  <li>  <a href="https://twitter.com/dstack4273">
-      <i class="fa fa-twitter"></i>
-    Twitter
-  </a></li>
-                  <li>  <a href="https://github.com/dstack4273">
-      <i class="fa fa-github"></i>
-    GitHub
-  </a></li>
-                  <li>  <a href="https://linkedin.com/in/dustinstackhouse">
-      <i class="fa fa-linkedin-square"></i>
-    LinkedIn
-  </a></li>
-                </ul>
-            </div>
-            <div class="span2">
-                <h5>Links</h5>
-                <ul class="unstyled">
-                  <li>  <a href="http://python.org/">
-    Python.org
-  </a></li>
-                  <li>  <a href="http://jinja.pocoo.org/">
-    Jinja2
-  </a></li>
-                </ul>
-            </div>
-
-          <div class="span2">
-            <h5>Browse content by</h5>
-            <ul class="fa-ul">
-                <li><a href="http://dstack4273.github.io/categories/index.html"><i class="fa-li fa fa-tags"></i> Categories</a></li>
-                <li><a href="http://dstack4273.github.io/archives/index.html"><i class="fa-li fa fa-calendar"></i> Dates</a></li>
-                <li><a href="http://dstack4273.github.io/tags/index.html"><i class="fa-li fa fa-tag"></i> Tags</a></li>
-
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/categories/">Categories</a></li>
+                    <li><a href="/tags/">Tags</a></li>
+                    <li><a href="/about/">About</a></li>
             </ul>
-          </div>
-
-          <div class="span2 muted">
-            <h5>Copyright notice</h5>
-            <p><p>Copyright &copy <script type="text/javascript">
-document.write(new Date().getFullYear()); </script>
-Dustin Stackhouse| Powered by <a href="http://getpelican.com">Pelican</a></span></p>
-          </div>
-
-          <div class="span2 muted">
-            <h5>Disclaimer</h5>
-              <p>All opinions expressed in this site are my own personal opinions and are not endorsed by, nor do they represent the opinions of my previous, current and future employers or any of its affiliates, partners or customers.</p>
-          </div>
-
-          <div class="span2">
-            <h5 class="pull-right"><a href="#" class="fa fa-arrow-up"> Back to top</a></h5>
-          </div>
-
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="http://dstack4273.github.io/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
         </div>
-      </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
 
-      <div class="container">
-        <div class="row span12 muted text-center">
-          Site generated by <a href="http://getpelican.com"> Pelican</a>.<br/>
-          <a href="https://github.com/kdeldycke/plumage"> Plumage</a> theme by <a href="http://kevin.deldycke.com">Kevin Deldycke</a>.
+    <section id="categories">
+        <h1>All Categories for Allons-y Blog</h1>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-new-stuff">New Stuff <span class="badge pull-right">2</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-new-stuff" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p><span class="categories-timestamp"><time datetime="2016-02-18T18:13:00-05:00">Feb. 18, 2016</time></span> <a href="http://dstack4273.github.io/2016/02/testpost/">TestPost</a></p>
+                        <p><span class="categories-timestamp"><time datetime="2015-01-28T00:00:00-05:00">Jan. 28, 2015</time></span> <a href="http://dstack4273.github.io/2015/01/testPost/">First&nbsp;Post</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+    </section>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+              <ul class="list-group" id="social">
+                <li class="list-group-item"><a href="https://twitter.com/dstack4273"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+                <li class="list-group-item"><a href="https://github.com/dstack4273"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
+                <li class="list-group-item"><a href="https://linkedin.com/in/dustinstackhouse"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
+              </ul>
+            </li>
+
+
+
+            <li class="list-group-item"><a href="http://dstack4273.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group " id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://python.org/" target="_blank">
+                Python.org
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://jinja.pocoo.org/" target="_blank">
+                Jinja2
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2016 Dustin Stackhouse
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>
+   </div>
+</footer>
+<script src="http://dstack4273.github.io/theme/js/jquery.min.js"></script>
 
-    </footer>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://dstack4273.github.io/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://dstack4273.github.io/theme/js/respond.min.js"></script>
 
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
-    <script src="http://dstack4273.github.io/theme/js/jquery.mglass.js"></script>
-    <script src="http://dstack4273.github.io/theme/js/application.js"></script>
-
-  </body>
+</body>
 </html>
