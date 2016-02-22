@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Dustin Stackhouse'
 SITENAME = u'Allons-y Blog'
-SITESUBTITLE = u'| Adventures learning to code'
+SITESUBTITLE = u'Adventures learning to code'
 #SITEURL = ''
 
 PATH = 'content'
@@ -75,6 +75,7 @@ DEFAULT_CATEGORY = 'English'
 DEFAULT_DATE_FORMAT = '%b. %d, %Y'
 REVERSE_ARCHIVE_ORDER = True
 DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
 
 # Pagination
 DEFAULT_ORPHANS = 2
@@ -84,7 +85,10 @@ DEFAULT_PAGINATION = 5
 NEWEST_FIRST_ARCHIVES = False
 
 # Define theme being used
-THEME = "pelican-themes/plumage"
+THEME = 'theme/pelican-bootstrap3'
+BOOTSTRAP_THEME = 'slate'
+PYGMENTS_STYLE = 'monokai'
+#USE_PAGER = True
 
 STATIC_PATHS = [
     'extra',
