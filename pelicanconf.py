@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Dustin Stackhouse'
 SITENAME = u'Allons-y Blog'
-SITESUBTITLE = u'Adventures learning to code'
+#SITESUBTITLE = u'Adventures learning to code'
 #SITEURL = ''
 
 PATH = 'content'
@@ -88,6 +88,8 @@ NEWEST_FIRST_ARCHIVES = False
 THEME = 'theme/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'slate'
 PYGMENTS_STYLE = 'monokai'
+BANNER = 'images/banner.png'
+BANNER_SUBTITLE = u'Adventures learning to code'
 #USE_PAGER = True
 
 STATIC_PATHS = [
@@ -124,12 +126,13 @@ SITEMAP = {
     }
 }
 
-SITE_THUMBNAIL = '/images/thumbs/firstBlogThumb.jpg'
+AVATAR = '/images/thumbs/firstBlogThumb.jpg'
 SITE_THUMBNAIL_TEXT = 'My poor wife endures a lot ;)'
 
 # Partner links in footer
-LINKS = (('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),)
+#LINKS = (('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),)
+LINKS = None
 
 # Social contact links in footer
 SOCIAL = (('Twitter', 'https://twitter.com/dstack4273'),
@@ -144,7 +147,7 @@ MENUITEMS = (
     ('About', '/about/'),
 )
 
-TIPUE_SEARCH = True
+SITE_THUMBNAIL = '/images/thumbs/firstBlogThumb.jpg'
+SITE_THUMBNAIL_TEXT = 'My poor wife endures a lot ;)'
 
-# Haven't made this yet
-# DISQUS_SITENAME =
+DISQUS_SITENAME = "allonsyblog"
