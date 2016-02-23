@@ -86,10 +86,12 @@ NEWEST_FIRST_ARCHIVES = False
 
 # Define theme being used
 THEME = 'theme/pelican-bootstrap3'
-BOOTSTRAP_THEME = 'slate'
+BOOTSTRAP_THEME = 'superhero'
 PYGMENTS_STYLE = 'monokai'
 BANNER = 'images/banner.png'
 BANNER_SUBTITLE = u'Adventures learning to code'
+DISPLAY_TAGS_ON_SIDEBAR = True
+#NAVBAR_DEFAULT = True # this for some unknown reason breaks the navabar collapse
 #USE_PAGER = True
 
 STATIC_PATHS = [
@@ -108,6 +110,7 @@ PLUGINS = [
     'tipue_search',
     'neighbors',
     'sitemap',
+    'tag_cloud'
 ]
 
 RELATED_POSTS_MAX = 3
@@ -127,7 +130,7 @@ SITEMAP = {
 }
 
 AVATAR = '/images/thumbs/firstBlogThumb.jpg'
-SITE_THUMBNAIL_TEXT = 'My poor wife endures a lot ;)'
+#SITE_THUMBNAIL_TEXT = 'My poor wife endures a lot ;)'
 
 # Partner links in footer
 #LINKS = (('Python.org', 'http://python.org/'),
@@ -139,6 +142,9 @@ SOCIAL = (('Twitter', 'https://twitter.com/dstack4273'),
           ('GitHub', 'https://github.com/dstack4273'),
           ('LinkedIn', 'https://linkedin.com/in/dustinstackhouse'),)
 
+GITHUB_USER = 'dstack4273'
+GITHUB_SKIP_FORK = True
+
 # set up some links in the top page menu
 MENUITEMS = (
     ('Home', '/'),
@@ -146,8 +152,5 @@ MENUITEMS = (
     ('Tags', '/tags/'),
     ('About', '/about/'),
 )
-
-SITE_THUMBNAIL = '/images/thumbs/firstBlogThumb.jpg'
-SITE_THUMBNAIL_TEXT = 'My poor wife endures a lot ;)'
 
 DISQUS_SITENAME = "allonsyblog"
