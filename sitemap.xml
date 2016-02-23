@@ -4,77 +4,77 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://dstack4273.github.io/</loc>
-<lastmod>2016-02-22T03:57:22-00:00</lastmod>
+<loc>/</loc>
+<lastmod>2016-02-23T00:27:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://dstack4273.github.io/about/</loc>
-<lastmod>2016-02-22T03:57:22-00:00</lastmod>
+<loc>/about/</loc>
+<lastmod>2016-02-23T00:27:23-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://dstack4273.github.io/2016/02/testpost/</loc>
+<loc>/2016/02/testpost/</loc>
 <lastmod>2016-02-18T18:13:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://dstack4273.github.io/2015/01/testPost/</loc>
+<loc>/2015/01/testPost/</loc>
 <lastmod>2015-01-28T00:00:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://dstack4273.github.io/category/new-stuff</loc>
+<loc>/category/new-stuff</loc>
 <lastmod>2016-02-18T18:13:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://dstack4273.github.io/tag/pelican/</loc>
+<loc>/tag/pelican/</loc>
 <lastmod>2015-01-28T00:00:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://dstack4273.github.io/tag/le-sigh/</loc>
+<loc>/tag/le-sigh/</loc>
 <lastmod>2016-02-18T18:13:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://dstack4273.github.io/tag/still-figuring-this-out/</loc>
+<loc>/tag/still-figuring-this-out/</loc>
 <lastmod>2016-02-18T18:13:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://dstack4273.github.io/tag/blog/</loc>
+<loc>/tag/blog/</loc>
 <lastmod>2015-01-28T00:00:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://dstack4273.github.io/tag/anewtest/</loc>
+<loc>/tag/anewtest/</loc>
 <lastmod>2016-02-18T18:13:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://dstack4273.github.io/tag/test/</loc>
+<loc>/tag/test/</loc>
 <lastmod>2015-01-28T00:00:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
