@@ -56,12 +56,12 @@ http://www.tipue.com/search
 }
 .tipue_search_content_title a
 {
-     color: #606060 ;
+     color: #686868;
      text-decoration: none;
 }
 .tipue_search_content_title a:hover
 {
-     color: #555;
+     color: #585858;
 }
 .tipue_search_content_url
 {
@@ -76,7 +76,7 @@ http://www.tipue.com/search
 }
 .tipue_search_content_url a:hover
 {
-     color: #555;
+     color: #D00000;
 }
 .tipue_search_content_text
 {
