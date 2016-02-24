@@ -97,10 +97,12 @@ DISPLAY_TAGS_ON_SIDEBAR = True
 STATIC_PATHS = [
     'extra',
     'images',
+    'extra/CNAME'
 ]
 
 EXTRA_PATH_METADATA = {
     'extra/favicons/favicon.ico': {'path': 'favicon.ico'},
+    'extra/CNAME': {'path': 'CNAME'},
 }
 
 # Don't have the plugins included in my repo yet, but place holder
