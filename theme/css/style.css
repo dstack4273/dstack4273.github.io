@@ -223,5 +223,8 @@ figure.floatcenter, .align-center {
 }
 
 .nav {
-    font-size: 14px;    
+    font-size: 14px;
 }
+
+/*color: #ebebeb color: #ffffff color: #C8C8C8
+color: #555 -- this is the color of the search content text and the count - both are visible as-is*/
