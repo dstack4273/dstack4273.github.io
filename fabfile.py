@@ -50,6 +50,7 @@ def build():
     local('pelican -s pelicanconf.py')
 
 #using the function given by Nafiul Islam in his blog post about pelican
+# use fab make_entry:"Post Name"
 def make_entry(title):
     """fabric shortcut to generate a blog post following a template"""
     today = datetime.today()
