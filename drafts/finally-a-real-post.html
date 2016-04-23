@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Finally, a Real Post - Allons-y Blog</title>
+    <title>Finally, a Real Post - Allons-y Blog</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -14,12 +14,13 @@
 
         <meta name="author" content="Dustin Stackhouse" />
         <meta name="keywords" content="pelican,configuration" />
+        <meta name="description" content="My Path to Pelican Fair disclosure: this took me longer than most other Pelican powered blogs that I used for inspiration. There honestly wasn’t much that was tricky overall, it was more that I like to have a pretty solid grasp of what I’m working on. Well, that ..." />
 
         <meta property="og:site_name" content="Allons-y Blog" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Finally, a Real Post"/>
+        <meta property="og:title" content="Finally, a Real Post"/>
         <meta property="og:url" content="http://allonsyblog.com/drafts/finally-a-real-post.html"/>
-        <meta property="og:description" content=""/>
+        <meta property="og:description" content="My Path to Pelican Fair disclosure: this took me longer than most other Pelican powered blogs that I used for inspiration. There honestly wasn’t much that was tricky overall, it was more that I like to have a pretty solid grasp of what I’m working on. Well, that ..."/>
         <meta property="article:published_time" content="2016-02-27" />
             <meta property="article:section" content="Using Pelican" />
             <meta property="article:tag" content="pelican" />
@@ -83,8 +84,8 @@ Allons-y Blog            </a>
                 <h1>
                     <a href="http://allonsyblog.com/drafts/finally-a-real-post.html"
                        rel="bookmark"
-                       title="Permalink to Finally, a Real Post">
-                        Finally, a Real Post
+                       title="Permalink to Finally, a Real Post">
+                        Finally, a Real&nbsp;Post
                     </a>
                 </h1>
             </header>
@@ -97,6 +98,8 @@ Allons-y Blog            </a>
         <i class="fa fa-calendar"></i><time datetime="2016-02-27T20:30:00-05:00"> Feb. 27, 2016</time>
     </span>
 
+        <span class="label label-default">Category</span>
+        <a href="http://allonsyblog.com/category/using-pelican">Using Pelican</a>
 
 
 <span class="label label-default">Tags</span>
@@ -106,9 +109,21 @@ Allons-y Blog            </a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                
+                <h2>My Path to&nbsp;Pelican</h2>
+<p><em><strong>Fair disclosure</strong></em>: this took me longer than most other Pelican powered blogs that I used for inspiration. There honestly wasn&#8217;t much that was tricky overall, it was more that I like to have a pretty solid grasp of what I&#8217;m working on. Well, that and I wanted this to be something that I wouldn&#8217;t be embarrassed if someone were to actually land here to read something that I&nbsp;write.</p>
+<p>After what seemed like it would never end several times, I think that I have finally gotten this thing looking pretty nice. There are still some minor styling things that I would like to button up to call the ascetics &#8220;done&#8221;, but truth be told they are so minor it isn&#8217;t worth trying to cram learn Jinja, <span class="caps">CSS</span>, JavaScript, and Bootstrap any more than what I already&nbsp;have.</p>
+<h3>What the Junk, Why Did This Take You So&nbsp;Long?!</h3>
+<p>I&#8217;m sure that for folks that have thought about setting up a web page or application in general the Pelican docs would get them to where they need to be for their&nbsp;blog.</p>
             </div>
             <!-- /.entry-content -->
+    <hr />
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style">
+            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+            <a class="addthis_button_tweet"></a>
+            <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    </div>
+    <!-- AddThis Button END -->
     <hr/>
     <section class="comments" id="comments">
         <h2>Comments</h2>
@@ -158,13 +173,8 @@ Allons-y Blog            </a>
 
 
 
-            <li class="list-group-item"><a href="http://allonsyblog.com/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
-                <ul class="list-group " id="tags">
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/still-figuring-this-out/">
-                            still figuring this out
-                        </a>
-                    </li>
+            <li class="list-group-item"><a href="http://allonsyblog.com/tags"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
                     <li class="list-group-item tag-4">
                         <a href="http://allonsyblog.com/tag/anewtest/">
                             aNewTest
@@ -176,8 +186,8 @@ Allons-y Blog            </a>
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/test/">
-                            test
+                        <a href="http://allonsyblog.com/tag/le-sigh/">
+                            le sigh
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
@@ -186,8 +196,13 @@ Allons-y Blog            </a>
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/le-sigh/">
-                            le sigh
+                        <a href="http://allonsyblog.com/tag/still-figuring-this-out/">
+                            still figuring this out
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://allonsyblog.com/tag/test/">
+                            test
                         </a>
                     </li>
                 </ul>
@@ -238,7 +253,7 @@ Allons-y Blog            </a>
 
             github.showRepos({
                 user: 'dstack4273',
-                count: 5,
+                count: 3,
                 skip_forks: true,
                 target: '#gh_repos'
             });
@@ -262,5 +277,6 @@ Allons-y Blog            </a>
     </script>
     <!-- End Disqus Code -->
 
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57183cbeb445118c"></script>
 </body>
 </html>

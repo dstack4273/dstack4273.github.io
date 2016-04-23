@@ -99,6 +99,8 @@ Allons-y Blog            </a>
         <i class="fa fa-calendar"></i><time datetime="2016-02-18T18:13:00-05:00"> Feb. 18, 2016</time>
     </span>
 
+        <span class="label label-default">Category</span>
+        <a href="http://allonsyblog.com/category/new-stuff">New Stuff</a>
 
 
 <span class="label label-default">Tags</span>
@@ -113,6 +115,14 @@ Allons-y Blog            </a>
                 <p>I&#8217;m adding another post just to see if the problem that I am having with the first test post is causing the thumbnail and site title to point to whatever page I&#8217;m currently on. If this doesn&#8217;t work then I&#8217;m going to have to dig into what I could&#8217;ve done to break my theme&#8217;s&nbsp;templates.</p>
             </div>
             <!-- /.entry-content -->
+    <hr />
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style">
+            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+            <a class="addthis_button_tweet"></a>
+            <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    </div>
+    <!-- AddThis Button END -->
     <hr/>
     <section class="comments" id="comments">
         <h2>Comments</h2>
@@ -162,13 +172,8 @@ Allons-y Blog            </a>
 
 
 
-            <li class="list-group-item"><a href="http://allonsyblog.com/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
-                <ul class="list-group " id="tags">
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/still-figuring-this-out/">
-                            still figuring this out
-                        </a>
-                    </li>
+            <li class="list-group-item"><a href="http://allonsyblog.com/tags"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
                     <li class="list-group-item tag-4">
                         <a href="http://allonsyblog.com/tag/anewtest/">
                             aNewTest
@@ -180,8 +185,8 @@ Allons-y Blog            </a>
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/test/">
-                            test
+                        <a href="http://allonsyblog.com/tag/le-sigh/">
+                            le sigh
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
@@ -190,8 +195,13 @@ Allons-y Blog            </a>
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/le-sigh/">
-                            le sigh
+                        <a href="http://allonsyblog.com/tag/still-figuring-this-out/">
+                            still figuring this out
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://allonsyblog.com/tag/test/">
+                            test
                         </a>
                     </li>
                 </ul>
@@ -242,7 +252,7 @@ Allons-y Blog            </a>
 
             github.showRepos({
                 user: 'dstack4273',
-                count: 5,
+                count: 3,
                 skip_forks: true,
                 target: '#gh_repos'
             });
@@ -266,5 +276,6 @@ Allons-y Blog            </a>
     </script>
     <!-- End Disqus Code -->
 
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57183cbeb445118c"></script>
 </body>
 </html>
