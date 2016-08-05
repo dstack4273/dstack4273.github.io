@@ -19,9 +19,14 @@ alias mkvirtualenv3 = mkvirtualenv -p $python3
 
 What this does is sets an environment variable that reads the location of your python3 install, and uses it along with the `mkvirtualenv` command's -p flag to define the version of python that you want to create your virtual environment with. You could just hard code in the path of your python3 install, but I thought that maybe using the actual `python3` shell path might make it a little more robust to any changes I might make absentmindedly.
 
+
+###Use
+Using this is super easy because of how I went about building it to work. Essentially those two lines allow me to have an alias that looks similar to the format of the `python` vs `python3` commands. For a Python 2 project you can type `mkvirtualenv <project name>` and for a Python 3 project `mkvirtualenv3 <project name>` where `<project name>` is the name of your project...(without the pointy brackets) and you'll have a new shiny virtual environment to start working in.
+
+
 ---
 
-Here are all of the things that I currently have in my .bash_profile if you are curious in what other witchcraft I've got gathered togeter.
+Here are all of the things that I currently have in my .bash_profile if you are curious in what other witchcraft I've got gathered together:
 
 ```
 alias lls="ls \-al"
@@ -54,3 +59,6 @@ export PATH=~/Library/Android/sdk/platform-tools:$PATH
 </br>
 
 If you have any tips on how you work with both versions of Python in your environment please comment below. If you have any questions post them up and I'll do my best to answer them.
+
+
+</br>
