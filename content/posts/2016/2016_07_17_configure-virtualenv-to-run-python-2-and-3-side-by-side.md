@@ -50,3 +50,5 @@ py3=$(which python3)
 export PATH=~/Library/Android/sdk/tools:$PATH
 export PATH=~/Library/Android/sdk/platform-tools:$PATH
 ```
+
+If you have any tips on how you work with both versions of Python in your environment please comment below. If you have any questions post them up and I'll do my best to answer them.
