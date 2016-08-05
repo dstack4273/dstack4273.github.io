@@ -35,7 +35,7 @@
         <link rel="stylesheet" href="http://allonsyblog.com/theme/css/bootstrap.superhero.min.css" type="text/css"/>
     <link href="http://allonsyblog.com/theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="http://allonsyblog.com/theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="http://allonsyblog.com/theme/css/pygments/solarizeddark.css" rel="stylesheet">
     <link href="http://allonsyblog.com/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
         <link href="http://allonsyblog.com/theme/css/typogrify.css" rel="stylesheet">
     <link rel="stylesheet" href="http://allonsyblog.com/theme/css/style.css" type="text/css"/>
@@ -128,8 +128,10 @@ Allons-y Blog            </a>
 
 <p></br></p>
 <p>What this does is sets an environment variable that reads the location of your python3 install, and uses it along with the <code>mkvirtualenv</code> command&#8217;s -p flag to define the version of python that you want to create your virtual environment with. You could just hard code in the path of your python3 install, but I thought that maybe using the actual <code>python3</code> shell path might make it a little more robust to any changes I might make&nbsp;absentmindedly.</p>
+<h3>Use</h3>
+<p>Using this is super easy because of how I went about building it to work. Essentially those two lines allow me to have an alias that looks similar to the format of the <code>python</code> vs <code>python3</code> commands. For a Python 2 project you can type <code>mkvirtualenv &lt;project name&gt;</code> and for a Python 3 project <code>mkvirtualenv3 &lt;project name&gt;</code> where <code>&lt;project name&gt;</code> is the name of your project&#8230;(without the pointy brackets) and you&#8217;ll have a new shiny virtual environment to start working&nbsp;in.</p>
 <hr />
-<p>Here are all of the things that I currently have in my .bash_profile if you are curious in what other witchcraft I&#8217;ve got gathered&nbsp;togeter.</p>
+<p>Here are all of the things that I currently have in my .bash_profile if you are curious in what other witchcraft I&#8217;ve got gathered&nbsp;together:</p>
 <div class="codehilite"><pre><span class="x">alias lls=&quot;ls \-al&quot;</span>
 <span class="x">alias mkvirtualenv3=&quot;mkvirtualenv -p </span><span class="p">$</span><span class="nv">py3</span><span class="x">&quot;</span>
 
@@ -160,6 +162,7 @@ Allons-y Blog            </a>
 
 <p></br></p>
 <p>If you have any tips on how you work with both versions of Python in your environment please comment below. If you have any questions post them up and I&#8217;ll do my best to answer&nbsp;them.</p>
+<p></br></p>
             </div>
             <!-- /.entry-content -->
     <hr />
