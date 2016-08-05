@@ -8,11 +8,15 @@ Status: published
 
 Recently one of the tutorials that I have wanted to work on was actually explicitly for Python3. Since virtually everything else that I have worked on to this point is for Python2, I hadn't really given any thought to the problem of how to continue to use VirtualEnv with a different version of Python. The topic is covered some in bits and pieces here and there, but no one really comes out and explains how to get it working. I do all of my work on OS X, so my configuration settings are from my .bash_profile dotfile. I have an existing Python 3 and Python 2 install through Homebrew. I had initially set up my VituralEnv Wrapper from the instructions listed in [this tutorial](http://newcoder.io/begin/setup-your-machine/). After that is working for you, all you should have to do is set up something like what I have in my .bash_profile:
 
+</br>
+
 ```
 python3 = which python3
 
 alias mkvirtualenv3 = mkvirtualenv -p $python3
 ```
+</br>
+
 What this does is sets an environment variable that reads the location of your python3 install, and uses it along with the `mkvirtualenv` command's -p flag to define the version of python that you want to create your virtual environment with. You could just hard code in the path of your python3 install, but I thought that maybe using the actual `python3` shell path might make it a little more robust to any changes I might make absentmindedly.
 
 ---
