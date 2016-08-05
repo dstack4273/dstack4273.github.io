@@ -89,7 +89,7 @@ NEWEST_FIRST_ARCHIVES=False
 # Define theme being used
 THEME='theme/pelican-bootstrap3'
 BOOTSTRAP_THEME='superhero'
-PYGMENTS_STYLE='monokai'
+PYGMENTS_STYLE='solarizeddark'
 BANNER='images/banner.png'
 BANNER_SUBTITLE=u'Adventures learning to code'
 DISPLAY_TAGS_ON_SIDEBAR=True
