@@ -1,7 +1,7 @@
 Title: Configure VirtualEnv to run Python 2 and 3 Side by Side
 Date: 2016-7-17 14:17
 Category:Dev Environment
-Tags:VirtualEnv, Python2, Python3, Configuration, Hacks
+Tags:VirtualEnv, Python2, Python3, configuration, hacks
 Slug: configure-virtualenv-to-run-python-2-and-3-side-by-side
 Status: published
 
