@@ -120,7 +120,7 @@ Allons-y Blog            </a>
                 </div>
                 <p>Recently one of the tutorials that I have wanted to work on was actually explicitly for Python3. Since virtually everything else that I have worked on to this point is for Python2, I hadn&#8217;t really given any thought to the problem of how to continue to use VirtualEnv with a different version of Python. The topic is covered some in bits and pieces here and there, but no one really comes out and explains how to get it working. I do all of my work on <span class="caps">OS</span> X, so my configuration settings are from my .bash_profile dotfile. I have an existing Python 3 and Python 2 install through Homebrew. I had initially set up my VituralEnv Wrapper from the instructions listed in <a href="http://newcoder.io/begin/setup-your-machine/">this tutorial</a>. After that is working for you, all you should have to do is set up something like what I have in my&nbsp;.bash_profile:</p>
 <p></br></p>
-<div class="codehilite"><pre><span class="x">python3 = which python3</span>
+<div class="highlight"><pre><span class="x">python3 = which python3</span>
 
 <span class="x">alias mkvirtualenv3 = mkvirtualenv -p </span><span class="p">$</span><span class="nv">python3</span><span class="x"></span>
 </pre></div>
@@ -132,7 +132,7 @@ Allons-y Blog            </a>
 <p>Using this is super easy because of how I went about building it to work. Essentially those two lines allow me to have an alias that looks similar to the format of the <code>python</code> vs <code>python3</code> commands. For a Python 2 project you can type <code>mkvirtualenv &lt;project name&gt;</code> and for a Python 3 project <code>mkvirtualenv3 &lt;project name&gt;</code> where <code>&lt;project name&gt;</code> is the name of your project&#8230;(without the pointy brackets) and you&#8217;ll have a new shiny virtual environment to start working&nbsp;in.</p>
 <hr />
 <p>Here are all of the things that I currently have in my .bash_profile if you are curious in what other witchcraft I&#8217;ve got gathered&nbsp;together:</p>
-<div class="codehilite"><pre><span class="x">alias lls=&quot;ls \-al&quot;</span>
+<div class="highlight"><pre><span class="x">alias lls=&quot;ls \-al&quot;</span>
 <span class="x">alias mkvirtualenv3=&quot;mkvirtualenv -p </span><span class="p">$</span><span class="nv">py3</span><span class="x">&quot;</span>
 
 <span class="x">export PS1=&quot;\[\033[36m\]\u:\[\033[m\]\w\[\033[m\]</span><span class="p">$</span><span class="x"> &quot;</span>

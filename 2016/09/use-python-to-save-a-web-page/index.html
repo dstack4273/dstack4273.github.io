@@ -125,7 +125,7 @@ Allons-y Blog            </a>
 <p><strong>/End&nbsp;Sidebar/</strong></p>
 </blockquote>
 <p>I tried using <code>brew info wkhtmltopdf</code> but instead of the short details I expected to see back instead homebrew returned <code>Error: No available formula with the name "wkhtmltopdf"</code>. Grrr, so I go to the wkhtmltopdf homepage (http://wkhtmltopdf.org/) and saw that they have a nice set of installers to get everything up and running. But, first I wanted to see if I could figure out why wkhtmltopdf wasn&#8217;t available in brew so I searched around a bit and eventually came across a note in the pdfkit Github repository wiki (https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf) that said I could use <code>brew install Caskroom/cask/wkhtmltopdf</code>. I ran that in my terminal and everything installed great! Now I moved back to my editor and put together my short&nbsp;script:</p>
-<div class="codehilite"><pre><span class="kn">import</span> <span class="nn">os</span>
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">from</span> <span class="nn">pdfkit</span> <span class="kn">import</span> <span class="n">from_url</span> <span class="k">as</span> <span class="n">converter</span>
 
 <span class="n">my_desktop</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="s1">&#39;~/Desktop&#39;</span><span class="p">)</span>
