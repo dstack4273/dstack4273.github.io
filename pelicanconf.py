@@ -135,8 +135,7 @@ SITEMAP={
     }
 }
 
-AVATAR='/images/thumbs/firstBlogThumb.jpg'
-#SITE_THUMBNAIL_TEXT = 'My poor wife endures a lot ;)'
+
 
 # Partner links in footer
 #LINKS = (('Python.org', 'http://python.org/'),

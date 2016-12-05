@@ -20,5 +20,8 @@ DELETE_OUTPUT_DIRECTORY=True
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
+DISQUS_SITENAME='allonsyblog'
+ADDTHIS_PROFILE='ra-57183cbeb445118c'
+# The additional hash is too ugly for me to see the value in it - yuck!
+ADDTHIS_DATA_TRACK_ADDRESSBAR=False
 #GOOGLE_ANALYTICS = ""
