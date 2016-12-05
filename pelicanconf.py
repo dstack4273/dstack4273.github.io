@@ -14,10 +14,13 @@ TIMEZONE='US/Eastern'
 DEFAULT_LANG=u'en'
 
 MD_EXTENSIONS=[
-    'codehilite',
+    'codehilite(css_class=highlight)',
     'extra',
     'mdx_titlecase',
 ]
+
+#removed this from the md extensions and replaced, now pygments works - yay!
+#codehilite
 TYPOGRIFY=True
 
 # Force Pelican to use the file name as the slug, instead of derivating it from
@@ -90,6 +93,7 @@ NEWEST_FIRST_ARCHIVES=False
 THEME='theme/pelican-bootstrap3'
 BOOTSTRAP_THEME='superhero'
 PYGMENTS_STYLE='solarizeddark'
+#PYGMENTS_STYLE='monokai'
 BANNER='images/banner.png'
 BANNER_SUBTITLE=u'Adventures learning to code'
 DISPLAY_TAGS_ON_SIDEBAR=True
