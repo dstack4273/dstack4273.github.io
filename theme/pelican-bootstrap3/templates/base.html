@@ -111,7 +111,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
                 {% for title, link in MENUITEMS %}
-                    <li><a href="{{ link }}">{{ title }}</a></li>
+                    <li {% if link[1:] == output_file %}class="active"{% endif %}><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
                 {% if DISPLAY_PAGES_ON_MENU %}
                     {% for p in PAGES %}
