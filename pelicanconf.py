@@ -19,8 +19,6 @@ MD_EXTENSIONS=[
     'mdx_titlecase',
 ]
 
-#removed this from the md extensions and replaced, now pygments works - yay!
-#codehilite
 TYPOGRIFY=True
 
 # Force Pelican to use the file name as the slug, instead of derivating it from
@@ -157,7 +155,6 @@ GITHUB_REPO_COUNT=3
 
 # set up some links in the top page menu
 MENUITEMS=(
-    ('Home', '/'),
     ('Categories', '/categories/'),
     ('Tags', '/tags/'),
     ('About', '/about/'),
