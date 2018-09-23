@@ -14,13 +14,13 @@
 
         <meta name="author" content="Dustin Stackhouse" />
         <meta name="keywords" content="how-to,Python2,Python3,tools" />
-        <meta name="description" content="I wrote most of this a couple of months ago, but I forgot to post it…because well, I’m not great at this blogging thing yet. I’ll try to get better about that. I finally finished up a post to a car forum that I follow to provide ..." />
+        <meta name="description" content="I wrote most of this a couple of months ago, but I forgot to post it…because well, I’m not great at this blogging thing yet. I’ll try to get better about that. I finally finished up a post to a car forum that I follow to provide …" />
 
         <meta property="og:site_name" content="Allons-y Blog" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Use Python to Save a Web Page"/>
         <meta property="og:url" content="http://allonsyblog.com/2016/09/use-python-to-save-a-web-page/"/>
-        <meta property="og:description" content="I wrote most of this a couple of months ago, but I forgot to post it…because well, I’m not great at this blogging thing yet. I’ll try to get better about that. I finally finished up a post to a car forum that I follow to provide ..."/>
+        <meta property="og:description" content="I wrote most of this a couple of months ago, but I forgot to post it…because well, I’m not great at this blogging thing yet. I’ll try to get better about that. I finally finished up a post to a car forum that I follow to provide …"/>
         <meta property="article:published_time" content="2016-09-24" />
             <meta property="article:section" content="Using Python" />
             <meta property="article:tag" content="how-to" />
@@ -124,7 +124,7 @@ Allons-y Blog            </a>
 <p><strong>/End&nbsp;Sidebar/</strong></p>
 </blockquote>
 <p>I tried using <code>brew info wkhtmltopdf</code> but instead of the short details I expected to see back instead homebrew returned <code>Error: No available formula with the name "wkhtmltopdf"</code>. Grrr, so I go to the wkhtmltopdf homepage (http://wkhtmltopdf.org/) and saw that they have a nice set of installers to get everything up and running. But, first I wanted to see if I could figure out why wkhtmltopdf wasn&#8217;t available in brew so I searched around a bit and eventually came across a note in the pdfkit Github repository wiki (https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf) that said I could use <code>brew install Caskroom/cask/wkhtmltopdf</code>. I ran that in my terminal and everything installed great! Now I moved back to my editor and put together my short&nbsp;script:</p>
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">os</span>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">from</span> <span class="nn">pdfkit</span> <span class="kn">import</span> <span class="n">from_url</span> <span class="k">as</span> <span class="n">converter</span>
 
 <span class="n">my_desktop</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="s1">&#39;~/Desktop&#39;</span><span class="p">)</span>
@@ -141,7 +141,7 @@ From that little script (which could probably be shortened with some clever one-
 <section class="well" id="related-posts">
     <h4>Related Posts:</h4>
     <ul>
-        <li><a href="http://allonsyblog.com/2016/07/configure-virtualenv-to-run-python-2-and-3-side-by-side/">Configure VirtualEnv to Run Python 2 and 3 Side by&nbsp;Side</a></li>
+        <li><a href="http://allonsyblog.com/2016/07/configure-virtualenv-to-run-python-2-and-3-side-by-side/">Configure VirtualEnv to run Python 2 and 3 Side by&nbsp;Side</a></li>
     </ul>
 </section>
     <hr />
@@ -204,16 +204,6 @@ From that little script (which could probably be shortened with some clever one-
             <li class="list-group-item"><a href="http://allonsyblog.com/tags"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group list-inline tagcloud" id="tags">
                     <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/anewtest/">
-                            aNewTest
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/blog/">
-                            blog
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
                         <a href="http://allonsyblog.com/tag/configuration/">
                             configuration
                         </a>
@@ -228,16 +218,6 @@ From that little script (which could probably be shortened with some clever one-
                             how-to
                         </a>
                     </li>
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/le-sigh/">
-                            le sigh
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/pelican/">
-                            pelican
-                        </a>
-                    </li>
                     <li class="list-group-item tag-1">
                         <a href="http://allonsyblog.com/tag/python2/">
                             Python2
@@ -246,16 +226,6 @@ From that little script (which could probably be shortened with some clever one-
                     <li class="list-group-item tag-1">
                         <a href="http://allonsyblog.com/tag/python3/">
                             Python3
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/still-figuring-this-out/">
-                            still figuring this out
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/test/">
-                            test
                         </a>
                     </li>
                     <li class="list-group-item tag-4">

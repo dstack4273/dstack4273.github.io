@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Configure VirtualEnv to Run Python 2 and 3 Side by Side - Allons-y Blog</title>
+    <title>Configure VirtualEnv to run Python 2 and 3 Side by Side - Allons-y Blog</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -14,13 +14,13 @@
 
         <meta name="author" content="Dustin Stackhouse" />
         <meta name="keywords" content="VirtualEnv,Python2,Python3,configuration,hacks" />
-        <meta name="description" content="Recently one of the tutorials that I have wanted to work on was actually explicitly for Python3. Since virtually everything else that I have worked on to this point is for Python2, I hadn’t really given any thought to the problem of how to continue to use VirtualEnv with ..." />
+        <meta name="description" content="Recently one of the tutorials that I have wanted to work on was actually explicitly for Python3. Since virtually everything else that I have worked on to this point is for Python2, I hadn’t really given any thought to the problem of how to continue to use VirtualEnv with …" />
 
         <meta property="og:site_name" content="Allons-y Blog" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Configure VirtualEnv to Run Python 2 and 3 Side by Side"/>
+        <meta property="og:title" content="Configure VirtualEnv to run Python 2 and 3 Side by Side"/>
         <meta property="og:url" content="http://allonsyblog.com/2016/07/configure-virtualenv-to-run-python-2-and-3-side-by-side/"/>
-        <meta property="og:description" content="Recently one of the tutorials that I have wanted to work on was actually explicitly for Python3. Since virtually everything else that I have worked on to this point is for Python2, I hadn’t really given any thought to the problem of how to continue to use VirtualEnv with ..."/>
+        <meta property="og:description" content="Recently one of the tutorials that I have wanted to work on was actually explicitly for Python3. Since virtually everything else that I have worked on to this point is for Python2, I hadn’t really given any thought to the problem of how to continue to use VirtualEnv with …"/>
         <meta property="article:published_time" content="2016-07-17" />
             <meta property="article:section" content="Dev Environment" />
             <meta property="article:tag" content="VirtualEnv" />
@@ -86,8 +86,8 @@ Allons-y Blog            </a>
                 <h1>
                     <a href="http://allonsyblog.com/2016/07/configure-virtualenv-to-run-python-2-and-3-side-by-side/"
                        rel="bookmark"
-                       title="Permalink to Configure VirtualEnv to Run Python 2 and 3 Side by Side">
-                        Configure VirtualEnv to Run Python 2 and 3 Side by&nbsp;Side
+                       title="Permalink to Configure VirtualEnv to run Python 2 and 3 Side by Side">
+                        Configure VirtualEnv to run Python 2 and 3 Side by&nbsp;Side
                     </a>
                 </h1>
             </header>
@@ -119,9 +119,9 @@ Allons-y Blog            </a>
                 </div>
                 <p>Recently one of the tutorials that I have wanted to work on was actually explicitly for Python3. Since virtually everything else that I have worked on to this point is for Python2, I hadn&#8217;t really given any thought to the problem of how to continue to use VirtualEnv with a different version of Python. The topic is covered some in bits and pieces here and there, but no one really comes out and explains how to get it working. I do all of my work on <span class="caps">OS</span> X, so my configuration settings are from my .bash_profile dotfile. I have an existing Python 3 and Python 2 install through Homebrew. I had initially set up my VituralEnv Wrapper from the instructions listed in <a href="http://newcoder.io/begin/setup-your-machine/">this tutorial</a>. After that is working for you, all you should have to do is set up something like what I have in my&nbsp;.bash_profile:</p>
 <p></br></p>
-<div class="highlight"><pre><span class="x">python3 = which python3</span>
+<div class="highlight"><pre><span></span><span class="nv">python3</span> <span class="o">=</span> which python3
 
-<span class="x">alias mkvirtualenv3 = mkvirtualenv -p </span><span class="p">$</span><span class="nv">python3</span><span class="x"></span>
+<span class="nb">alias</span> <span class="nv">mkvirtualenv3</span> <span class="o">=</span> mkvirtualenv -p <span class="nv">$python3</span>
 </pre></div>
 
 
@@ -131,31 +131,31 @@ Allons-y Blog            </a>
 <p>Using this is super easy because of how I went about building it to work. Essentially those two lines allow me to have an alias that looks similar to the format of the <code>python</code> vs <code>python3</code> commands. For a Python 2 project you can type <code>mkvirtualenv &lt;project name&gt;</code> and for a Python 3 project <code>mkvirtualenv3 &lt;project name&gt;</code> where <code>&lt;project name&gt;</code> is the name of your project&#8230;(without the pointy brackets) and you&#8217;ll have a new shiny virtual environment to start working&nbsp;in.</p>
 <hr />
 <p>Here are all of the things that I currently have in my .bash_profile if you are curious in what other witchcraft I&#8217;ve got gathered&nbsp;together:</p>
-<div class="highlight"><pre><span class="x">alias lls=&quot;ls \-al&quot;</span>
-<span class="x">alias mkvirtualenv3=&quot;mkvirtualenv -p </span><span class="p">$</span><span class="nv">py3</span><span class="x">&quot;</span>
+<div class="highlight"><pre><span></span><span class="nb">alias</span> <span class="nv">lls</span><span class="o">=</span><span class="s2">&quot;ls \-al&quot;</span>
+<span class="nb">alias</span> <span class="nv">mkvirtualenv3</span><span class="o">=</span><span class="s2">&quot;mkvirtualenv -p </span><span class="nv">$py3</span><span class="s2">&quot;</span>
 
-<span class="x">export PS1=&quot;\[\033[36m\]\u:\[\033[m\]\w\[\033[m\]</span><span class="p">$</span><span class="x"> &quot;</span>
-<span class="x">export CLICOLOR=1</span>
-<span class="x">export LSCOLORS=ExFxBxDxCxegedabagacad</span>
+<span class="nb">export</span> <span class="nv">PS1</span><span class="o">=</span><span class="s2">&quot;\[\033[36m\]\u:\[\033[m\]\w\[\033[m\]</span>$<span class="s2"> &quot;</span>
+<span class="nb">export</span> <span class="nv">CLICOLOR</span><span class="o">=</span><span class="m">1</span>
+<span class="nb">export</span> <span class="nv">LSCOLORS</span><span class="o">=</span>ExFxBxDxCxegedabagacad
 
-<span class="cp">#</span><span class="nf">nvm</span><span class="x"></span>
-<span class="x">export NVM_DIR=~/.nvm</span>
-<span class="x">. </span><span class="p">$(</span><span class="err">brew</span> <span class="err">--prefix</span> <span class="err">nvm</span><span class="p">)</span><span class="x">/nvm.sh</span>
+<span class="c1">#nvm</span>
+<span class="nb">export</span> <span class="nv">NVM_DIR</span><span class="o">=</span>~/.nvm
+. <span class="k">$(</span>brew --prefix nvm<span class="k">)</span>/nvm.sh
 
-<span class="cp">#</span><span class="nf">move</span><span class="x"> usr/local to front of path</span>
-<span class="x">export PATH=usr/local/bin:</span><span class="p">$</span><span class="nv">PATH</span><span class="x"></span>
+<span class="c1">#move usr/local to front of path</span>
+<span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span>usr/local/bin:<span class="nv">$PATH</span>
 
-<span class="x">WORKON_HOME=~/Envs</span>
-<span class="x">source /usr/local/bin/virtualenvwrapper.sh</span>
+<span class="nv">WORKON_HOME</span><span class="o">=</span>~/Envs
+<span class="nb">source</span> /usr/local/bin/virtualenvwrapper.sh
 
-<span class="cp">#</span><span class="nf">ruby</span><span class="x"> env mgr</span>
-<span class="x">if which rbenv &gt; /dev/null; then eval &quot;</span><span class="p">$(</span><span class="err">rbenv</span> <span class="err">init</span> <span class="err">-</span><span class="p">)</span><span class="x">&quot;; fi</span>
+<span class="c1">#ruby env mgr</span>
+<span class="k">if</span> which rbenv &gt; /dev/null<span class="p">;</span> <span class="k">then</span> <span class="nb">eval</span> <span class="s2">&quot;</span><span class="k">$(</span>rbenv init -<span class="k">)</span><span class="s2">&quot;</span><span class="p">;</span> <span class="k">fi</span>
 
-<span class="x">py3=</span><span class="p">$(</span><span class="err">which</span> <span class="err">python3</span><span class="p">)</span><span class="x"></span>
+<span class="nv">py3</span><span class="o">=</span><span class="k">$(</span>which python3<span class="k">)</span>
 
-<span class="cp">#</span><span class="nf">adroid</span><span class="x"> sdk</span>
-<span class="x">export PATH=~/Library/Android/sdk/tools:</span><span class="p">$</span><span class="nv">PATH</span><span class="x"></span>
-<span class="x">export PATH=~/Library/Android/sdk/platform-tools:</span><span class="p">$</span><span class="nv">PATH</span><span class="x"></span>
+<span class="c1">#adroid sdk</span>
+<span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span>~/Library/Android/sdk/tools:<span class="nv">$PATH</span>
+<span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span>~/Library/Android/sdk/platform-tools:<span class="nv">$PATH</span>
 </pre></div>
 
 
@@ -230,16 +230,6 @@ Allons-y Blog            </a>
             <li class="list-group-item"><a href="http://allonsyblog.com/tags"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group list-inline tagcloud" id="tags">
                     <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/anewtest/">
-                            aNewTest
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/blog/">
-                            blog
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
                         <a href="http://allonsyblog.com/tag/configuration/">
                             configuration
                         </a>
@@ -254,16 +244,6 @@ Allons-y Blog            </a>
                             how-to
                         </a>
                     </li>
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/le-sigh/">
-                            le sigh
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/pelican/">
-                            pelican
-                        </a>
-                    </li>
                     <li class="list-group-item tag-1">
                         <a href="http://allonsyblog.com/tag/python2/">
                             Python2
@@ -272,16 +252,6 @@ Allons-y Blog            </a>
                     <li class="list-group-item tag-1">
                         <a href="http://allonsyblog.com/tag/python3/">
                             Python3
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/still-figuring-this-out/">
-                            still figuring this out
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
-                        <a href="http://allonsyblog.com/tag/test/">
-                            test
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
