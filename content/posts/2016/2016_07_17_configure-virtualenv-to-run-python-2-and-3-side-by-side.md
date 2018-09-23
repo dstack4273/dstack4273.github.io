@@ -10,7 +10,7 @@ Recently one of the tutorials that I have wanted to work on was actually explici
 
 </br>
 
-```
+```bash
 python3 = which python3
 
 alias mkvirtualenv3 = mkvirtualenv -p $python3
@@ -28,7 +28,7 @@ Using this is super easy because of how I went about building it to work. Essent
 
 Here are all of the things that I currently have in my .bash_profile if you are curious in what other witchcraft I've got gathered together:
 
-```
+```bash
 alias lls="ls \-al"
 alias mkvirtualenv3="mkvirtualenv -p $py3"
 
