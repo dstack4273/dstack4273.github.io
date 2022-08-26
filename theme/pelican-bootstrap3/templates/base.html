@@ -120,6 +120,8 @@
                     <li {{link_state}}><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
                 {% if DISPLAY_PAGES_ON_MENU %}
+                <!-- might need to change this if something breaks, according to the  3.7.1 notes
+                http://docs.getpelican.com/en/3.7.1/faq.html -->
                     {% for p in PAGES %}
                          <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">
                              {{ p.menulabel|default(p.title) }}

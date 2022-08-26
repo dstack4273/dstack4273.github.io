@@ -4,9 +4,15 @@ import fabric.contrib.project as project
 import os
 import shutil
 import sys
-import SocketServer
 
 from pelican.server import ComplexHTTPRequestHandler
+
+# added in some junk to handle both python 2 and 3 after trying py3 during pelican upgrade found out that
+# apparently the author of this module changed the case...
+try:
+    import SocketServer as sockserv
+except ImportError:
+    import socketserver as sockserv
 
 
 #Post template values for make_entry function
@@ -75,7 +81,7 @@ def serve():
     """Serve site at http://localhost:8000/"""
     os.chdir(env.deploy_path)
 
-    class AddressReuseTCPServer(SocketServer.TCPServer):
+    class AddressReuseTCPServer(sockserv.TCPServer):
         allow_reuse_address = True
 
     server = AddressReuseTCPServer(('', PORT), ComplexHTTPRequestHandler)

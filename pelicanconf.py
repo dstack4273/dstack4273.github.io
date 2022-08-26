@@ -13,11 +13,20 @@ TIMEZONE='US/Eastern'
 
 DEFAULT_LANG=u'en'
 
-MD_EXTENSIONS=[
-    'codehilite(css_class=highlight)',
-    'extra',
-    'mdx_titlecase',
-]
+#MARKDOWN={
+#    'codehilite(css_class=highlight)',
+#    'extra',
+#    'mdx_titlecase',
+#}
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        # apparently titlecase this doesn't work with py3
+        #'mdx_titlecase': {},
+    },
+}
 
 TYPOGRIFY=True
 
@@ -136,7 +145,6 @@ SITEMAP={
         'pages': 'monthly',
     }
 }
-
 
 
 # Partner links in footer
